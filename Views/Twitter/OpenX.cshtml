@@ -1,0 +1,25 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Redirecting...</title>
+    <script>
+        window.onload = function () {
+            // Open N1_Bears in new tab
+            window.open("https://x.com/N1_Bears", "_blank");
+
+            // Go back to your whitelist page after a delay
+            setTimeout(function () {
+                window.location.href = "/HomeController/Joinwl"; // ← update this
+            }, 200); // slight delay
+        }
+    </script>
+</head>
+<body>
+    <p>Redirecting to X.com...</p>
+</body>
+</html>

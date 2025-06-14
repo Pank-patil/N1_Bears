@@ -1,0 +1,405 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\Unique.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Unique.n49tf4gt8y.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\Images\\2 (1).png",
+      "PackagePath": "staticwebassets\\Images\\2 (1).png"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\Images\\ApplyBear.png",
+      "PackagePath": "staticwebassets\\Images\\ApplyBear.png"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\Images\\BearFooter.PNG",
+      "PackagePath": "staticwebassets\\Images\\BearFooter.PNG"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\Images\\Cardback.jpg",
+      "PackagePath": "staticwebassets\\Images\\Cardback.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\Images\\IMG_2712.PNG",
+      "PackagePath": "staticwebassets\\Images\\IMG_2712.PNG"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\Images\\LOGO.jpg",
+      "PackagePath": "staticwebassets\\Images\\LOGO.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\Images\\MainBear.PNG",
+      "PackagePath": "staticwebassets\\Images\\MainBear.PNG"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\Images\\MainCharacter.svg",
+      "PackagePath": "staticwebassets\\Images\\MainCharacter.svg"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\Images\\N1C.png",
+      "PackagePath": "staticwebassets\\Images\\N1C.png"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\Images\\N1CLUB.png",
+      "PackagePath": "staticwebassets\\Images\\N1CLUB.png"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\Images\\NFT1.jpg",
+      "PackagePath": "staticwebassets\\Images\\NFT1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\Images\\NFT2.jpg",
+      "PackagePath": "staticwebassets\\Images\\NFT2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\Images\\NFT3.jpg",
+      "PackagePath": "staticwebassets\\Images\\NFT3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\Images\\NFT4.jpg",
+      "PackagePath": "staticwebassets\\Images\\NFT4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\Images\\NFT5.jpg",
+      "PackagePath": "staticwebassets\\Images\\NFT5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\Images\\NFT6.jpg",
+      "PackagePath": "staticwebassets\\Images\\NFT6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\Images\\aboutframemob (1).png",
+      "PackagePath": "staticwebassets\\Images\\aboutframemob (1).png"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\Images\\art.png",
+      "PackagePath": "staticwebassets\\Images\\art.png"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\Images\\b1.jpg",
+      "PackagePath": "staticwebassets\\Images\\b1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\Images\\bearLOGO.jpg",
+      "PackagePath": "staticwebassets\\Images\\bearLOGO.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\Images\\bearth.jpg",
+      "PackagePath": "staticwebassets\\Images\\bearth.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\Images\\bearthanks.png",
+      "PackagePath": "staticwebassets\\Images\\bearthanks.png"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\Images\\blueBack.png",
+      "PackagePath": "staticwebassets\\Images\\blueBack.png"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\Images\\cannalogo.png",
+      "PackagePath": "staticwebassets\\Images\\cannalogo.png"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\Images\\cardbackground.png",
+      "PackagePath": "staticwebassets\\Images\\cardbackground.png"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\Images\\clouds_z0.svg",
+      "PackagePath": "staticwebassets\\Images\\clouds_z0.svg"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\Images\\complete game.png",
+      "PackagePath": "staticwebassets\\Images\\complete game.png"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\Images\\dc.jpg",
+      "PackagePath": "staticwebassets\\Images\\dc.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\Images\\footer1.png",
+      "PackagePath": "staticwebassets\\Images\\footer1.png"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\Images\\logo.svg",
+      "PackagePath": "staticwebassets\\Images\\logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\Images\\photo_2025-05-31_11-04-36.jpg",
+      "PackagePath": "staticwebassets\\Images\\photo_2025-05-31_11-04-36.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\Images\\weblogo.png",
+      "PackagePath": "staticwebassets\\Images\\weblogo.png"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\Images\\welcome.png",
+      "PackagePath": "staticwebassets\\Images\\welcome.png"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\Images\\x.jpg",
+      "PackagePath": "staticwebassets\\Images\\x.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Unique\\Unique\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.Unique.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.Unique.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.build.Unique.props",
+      "PackagePath": "build\\Unique.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Unique.props",
+      "PackagePath": "buildMultiTargeting\\Unique.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildTransitive.Unique.props",
+      "PackagePath": "buildTransitive\\Unique.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

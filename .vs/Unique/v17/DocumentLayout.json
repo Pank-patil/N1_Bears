@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Git\\N1_Bears\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4C841DF2-FC1A-459E-8014-641C31C76B4D}|Unique\\N1Bears.csproj|c:\\users\\pankaj\\source\\repos\\asp.net core web api\\git\\n1_bears\\unique\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4C841DF2-FC1A-459E-8014-641C31C76B4D}|Unique\\N1Bears.csproj|solutionrelative:unique\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Git\\N1_Bears\\Unique\\appsettings.json",
+              "RelativeDocumentMoniker": "Unique\\appsettings.json",
+              "ToolTip": "C:\\Users\\Pankaj\\source\\repos\\ASP.NET CORE WEB API\\Git\\N1_Bears\\Unique\\appsettings.json",
+              "RelativeToolTip": "Unique\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-14T14:32:08.901Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

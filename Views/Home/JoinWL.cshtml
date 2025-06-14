@@ -1,0 +1,294 @@
+﻿@model Unique.Models.WhitelistEntry
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Apply for Whitelist</title>
+    <meta name="description" content="Apply for N1 Bears whitelist. Complete X tasks and submit your tweet, wallet, and referral code." />
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            height: 100%;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background: url("/Images/clouds_z0.svg") no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+        }
+
+
+        .main-content {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .apply-container {
+            background: rgba(255, 255, 255, 0.97);
+            padding: 40px 30px;
+            border-radius: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+            text-align: center;
+            width: 100%;
+            max-width: 500px;
+        }
+
+            .apply-container h1 {
+                color: #ff6fb1;
+                margin-bottom: 30px;
+                font-size: 2.2rem;
+                text-shadow: 2px 2px 0 #000;
+            }
+
+            .apply-container input,
+            .apply-container button,
+            .apply-container a.x-btn {
+                display: block;
+                width: 100%;
+                padding: 16px;
+                margin-bottom: 15px;
+                border: 3px solid #ff8ad4;
+                border-radius: 12px;
+                font-size: 1rem;
+                text-align: center;
+                text-decoration: none;
+                color: #000; /* Ensuring text is visible */
+                background: white;
+            }
+
+            .apply-container button {
+                background: linear-gradient(45deg, #ff6fb1, #c471ed);
+                border: none;
+                color: white;
+                font-weight: bold;
+                cursor: pointer;
+                transition: background 0.4s, transform 0.2s;
+            }
+
+                .apply-container button:hover {
+                    background: linear-gradient(45deg, #c471ed, #ff6fb1);
+                    transform: scale(1.03);
+                }
+
+        .connect-btn {
+            display: inline-block;
+            background: linear-gradient(45deg, #00acee, #0086c9);
+            color: white;
+            font-weight: 700;
+            font-size: 0.85rem; /* smaller font */
+            padding: 8px 16px; /* smaller padding */
+            border-radius: 8px; /* slightly smaller rounding */
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+            box-shadow: 0 2px 8px rgba(0, 172, 238, 0.4);
+            transition: background 0.3s ease, transform 0.2s ease;
+            user-select: none;
+            text-align: center;
+            min-width: 120px;
+        }
+
+            .connect-btn:hover,
+            .connect-btn:focus {
+                background: linear-gradient(45deg, #0086c9, #00acee);
+                transform: scale(1.05);
+                box-shadow: 0 4px 12px rgba(0, 172, 238, 0.6);
+            }
+
+            .connect-btn:disabled,
+            .connect-btn[disabled] {
+                background: #555;
+                cursor: not-allowed;
+                box-shadow: none;
+                color: #ccc;
+                transform: none;
+            }
+
+
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            color: #555;
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: bold;
+        }
+
+            .back-link:hover {
+                text-decoration: underline;
+            }
+
+        .x-btn {
+            background: linear-gradient(135deg, #ff6fb1, #c471ed);
+            color: white;
+            font-weight: bold;
+            font-size: 1rem;
+            text-align: center;
+            text-decoration: none;
+            padding: 16px;
+            border: 3px solid #ff8ad4;
+            border-radius: 12px;
+            display: block;
+            width: 100%;
+            transition: all 0.3s ease;
+        }
+
+            .x-btn:hover {
+                background: linear-gradient(135deg, #c471ed, #ff6fb1);
+                transform: scale(1.03);
+            }
+
+            .x-btn.clicked {
+                background-color: #9a30c6 !important;
+                border-color: #8a2be2 !important;
+                color: #fff !important;
+            }
+
+        .locked {
+            pointer-events: none;
+            opacity: 0.5;
+        }
+
+            .locked input[name="ReferralCodeInput"] {
+                pointer-events: auto;
+                opacity: 1;
+            }
+
+        media (max-width: 480px) {
+            .apply-container h1
+
+        {
+            font-size: 1.8rem;
+        }
+
+        .apply-container input,
+        .apply-container button,
+        .apply-container a.x-btn {
+            padding: 14px;
+            font-size: 0.95rem;
+        }
+
+        .back-link {
+            font-size: 0.9rem;
+        }
+
+        }
+
+        media (min-width: 768px) {
+            .apply-container
+
+        {
+            padding: 60px 50px;
+        }
+
+        .apply-container h1 {
+            font-size: 3rem;
+        }
+
+        .apply-container input,
+        .apply-container button,
+        .apply-container a.x-btn {
+            font-size: 1.1rem;
+            padding: 18px;
+        }
+
+        }
+    </style>
+</head>
+<body>
+    <div class="main-content">
+        <div class="apply-container">
+            <h1>Apply For Bearlist</h1>
+
+            @if ((ViewBag.TwitterVerified as bool?) == true)
+            {
+                <button class="connect-btn" disabled>
+                    ✅ Connected to X
+                </button>
+            }
+            else
+            {
+                <a href="@Url.Action("Login", "Twitter")" class="connect-btn" id="connectXBtn">
+                    Connect X
+                </a>
+            }
+
+            <div id="formSection" class="@(ViewBag.TwitterVerified != null && (bool)ViewBag.TwitterVerified ? "" : "locked")">
+                <div asp-validation-summary="All" class="text-danger mb-3"></div>
+
+                <form asp-action="JoinWL" method="post" asp-antiforgery="true">
+                    <a class="x-btn" id="followBtn" href="https://x.com/intent/follow?screen_name=N1_Bears" target="_blank" onclick="handleClick('followBtn')">📌 Follow on X</a>
+                    <a class="x-btn" id="likeBtn" href="https://x.com/N1_Bears/status/1929170762704814405" target="_blank" onclick="handleClick('likeBtn')">❤️ Like the Post</a>
+
+                    <a class="x-btn" id="retweetBtn" href="https://x.com/intent/retweet?tweet_id=1929170762704814405" target="_blank" onclick="handleClick('retweetBtn')">🔁 Retweet the Post</a>
+                    <input asp-for="ReferralCodeInput" type="text" placeholder="Referral Code (Optional)" />
+                    <span asp-validation-for="ReferralCodeInput" class="text-danger"></span>
+
+                    <input asp-for="TweetUrl" type="url" placeholder="Your Tweet URL (proof)" required />
+                    <span asp-validation-for="TweetUrl" class="text-danger"></span>
+
+                    <button type="submit" class="submit-btn">🚀 Apply Now</button>
+                </form>
+            </div>
+
+            <a href="/Home/Index" class="back-link">⬅️ Back to Home</a>
+        </div>
+    </div>
+
+    @section Scripts {
+        <partial name="_ValidationScriptsPartial" />
+    }
+
+    <script>
+        function handleClick(buttonId) {
+            localStorage.setItem(buttonId, Date.now().toString());
+        }
+
+        function markAsDone(btn) {
+            if (!btn.classList.contains('clicked')) {
+                btn.innerText = '✅ ' + btn.innerText.replace(/^[^ ]+ /, '');
+                btn.classList.add('clicked');
+            }
+        }
+
+        function checkAndMarkButtons() {
+            ['followBtn', 'likeBtn', 'retweetBtn'].forEach(buttonId => {
+                const timeClicked = localStorage.getItem(buttonId);
+                const btn = document.getElementById(buttonId);
+
+                if (timeClicked && btn) {
+                    const now = Date.now();
+                    const elapsed = now - parseInt(timeClicked, 10);
+
+                    if (elapsed >= 5000) {
+                        markAsDone(btn);
+                        localStorage.removeItem(buttonId);
+                    }
+                }
+            });
+        }
+
+        window.addEventListener("load", checkAndMarkButtons);
+
+        document.addEventListener("visibilitychange", function () {
+            if (document.visibilityState === "visible") {
+                setTimeout(checkAndMarkButtons, 500);
+            }
+        });
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.13/jquery.validate.unobtrusive.min.js"></script>
+</body>
+</html>

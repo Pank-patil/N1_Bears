@@ -1,0 +1,76 @@
+﻿@model ErrorViewModel
+@{
+    ViewData["Title"] = "Error";
+}
+
+<style>
+    .main-content {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .error-container {
+        background: rgba(255, 255, 255, 0.97);
+        padding: 50px 40px;
+        border-radius: 30px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        text-align: center;
+        width: 100%;
+        max-width: 500px;
+        font-family: 'Comic Sans MS', cursive, sans-serif;
+    }
+
+        .error-container h1 {
+            color: #dc3545;
+            margin-bottom: 20px;
+            font-size: 2.4rem;
+            text-shadow: 1px 1px 0 #000;
+        }
+
+    .error-message {
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+        color: #555;
+    }
+
+    .back-home-btn {
+        display: inline-block;
+        background: linear-gradient(45deg, #dc3545, #ff6f61);
+        color: white;
+        padding: 14px 28px;
+        font-size: 1.2rem;
+        font-weight: bold;
+        border-radius: 12px;
+        text-decoration: none;
+        margin-top: 30px;
+        transition: all 0.3s ease;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+        .back-home-btn:hover {
+            background: linear-gradient(45deg, #ff6f61, #dc3545);
+            transform: scale(1.05);
+        }
+</style>
+
+<div class="main-content">
+    <div class="error-container">
+        <h1>🐻 The bears are busy!</h1>
+        <p class="error-message">Please come back after some time. We're working hard behind the scenes!</p>
+
+        @if (Model.ShowRequestId)
+        {
+            <div style="margin-top: 10px;">
+                <strong>Request ID:</strong>
+                <div style="background-color: #f8f9fa; padding: 10px 16px; border-radius: 10px; display: inline-block;">
+                    @Model.RequestId
+                </div>
+            </div>
+        }
+
+        <a href="@Url.Action("Index", "Home")" class="back-home-btn mt-4">⬅️ Back to Home</a>
+    </div>
+</div>

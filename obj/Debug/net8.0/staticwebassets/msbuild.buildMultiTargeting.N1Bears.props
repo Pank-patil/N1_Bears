@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\N1Bears.props" />
+</Project>

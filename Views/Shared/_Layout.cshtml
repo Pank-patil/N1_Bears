@@ -1,0 +1,183 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <meta charset="utf-8" />
+    <title>N1 BEAR - NFT</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap" rel="stylesheet" />
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(to top, #0d0d0d, #1a1a1a);
+            color: #fff;
+            overflow-x: hidden;
+        }
+
+        header {
+            padding: 1.5rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo img {
+            height: auto;
+            max-height: 100px;
+            width: auto;
+            max-width: 100%;
+        }
+
+        .menu-btn {
+            background: rgba(0, 0, 0, 0.6); /* Darker background */
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            color: #fff;
+            font-weight: 600;
+            font-size: 1rem;
+            padding: 10px 24px;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(6px);
+            box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+        }
+
+            .menu-btn:hover {
+                background: rgba(0, 0, 0, 0.75);
+                color: #00f2ff;
+                box-shadow: 0 0 18px rgba(0, 242, 255, 0.2);
+                transform: scale(1.05);
+            }
+
+        .overlay-menu {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            background: rgba(0, 0, 0, 0.3); /* lighter transparency */
+            backdrop-filter: blur(8px); /* stronger blur for smooth glass effect */
+            display: none;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+            transition: all 0.5s ease;
+        }
+
+
+            .overlay-menu.active {
+                display: flex;
+            }
+
+            .overlay-menu a {
+                font-size: 1.2rem;
+                padding: 16px 32px;
+                margin: 12px;
+                color: #fff;
+                border-radius: 16px;
+                background: rgba(255, 255, 255, 0.05);
+                backdrop-filter: blur(25px); /* Increased blur */
+                border: 1px solid rgba(255, 255, 255, 0.1);
+                text-decoration: none;
+                font-weight: 600;
+                box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+                transition: all 0.3s ease;
+                display: inline-block;
+                text-align: center;
+                min-width: 200px;
+            }
+
+                .overlay-menu a:hover {
+                    transform: scale(1.05);
+                    background: rgba(0, 242, 255, 0.15);
+                    color: #00f2ff;
+                    box-shadow: 0 0 20px rgba(0, 242, 255, 0.3);
+                }
+
+
+
+        .close-btn {
+            position: absolute;
+            top: 2rem;
+            right: 2rem;
+            font-size: 2rem;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        footer img {
+            width: 100%;
+            display: block;
+        }
+
+        media (max-width: 768px) {
+            .menu-btn
+
+        {
+            padding: 8px 16px;
+            font-size: 0.9rem;
+        }
+
+        .overlay-menu a {
+            font-size: 1.5rem;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <img src="/Images/weblogo.png" alt="Logo" />
+        </div>
+        <button class="menu-btn" onclick="openMenu()">☰ Menu</button>
+    </header>
+
+    <!-- Fullscreen Overlay Menu -->
+    <div class="overlay-menu" id="overlayMenu">
+        <div class="close-btn" onclick="closeMenu()">&times;</div>
+        <a href="/Home/Index">🏠 Home</a>
+        <a href="/Home/Index#memory-game" onclick=" closeMenu()">📝 Apply for WL</a>
+        <a href="/Home/Index#collection-section" onclick="closeMenu()">📦 Collection</a>
+
+        <a href="/Home/Index#collection-section" onclick=" closeMenu()">ℹ️ About</a>
+    </div>
+
+    <!-- Main -->
+    <main>
+        @RenderBody()
+        @RenderSection("Styles", required: false)
+        @RenderSection("Scripts", required: false)
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <img src="/Images/BearFooter.png" alt="Footer Image" />
+    </footer>
+
+    <script>
+        function openMenu() {
+            document.getElementById("overlayMenu").classList.add("active");
+        }
+        function closeMenu() {
+            document.getElementById("overlayMenu").classList.remove("active");
+        }
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
